@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(107, 174, 174, 0.675);
+    color: rgb(245, 246, 246);
+    padding: 10px;
+}
+
+#cabeclho{
+    margin: 0 100px;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+}
+
+.tela{
+    width: 600px;
+    background-color: rgb(87, 127, 167);
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tela #entrada{
+    font-size: 90px;
+    color: rgb(250, 253, 255);
+    background-color: rgba(255, 255, 255, 0.284);
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form input{
+    width: 200px;
+    height: 40px;
+    margin: 7px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+#form button{
+    width: 100px;
+    height: 50px;
+    margin: 7px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(243, 245, 248);
+}
+
+#form button:hover{
+    width: 100px;
+    height: 50px;
+    margin: 7px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(194, 194, 198);
+}
+
+.info{
+    width: 400px;
+    text-align: justify;
+    margin: 30px 60px;
+}

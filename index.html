@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula IMC</title>
+    <link href="./main.css" rel="stylesheet"  type="text/css"/>
+</head>
+<body>
+    <header>
+        <div id="cabeclho">
+            <h1>Calcula IMC</h1>
+        </div>
+    </header>
+    <main>
+        <section class="info">
+            <h2>Como saber o peso ideal ?</h2>
+            <p>A obesidade é determinada pelo Índice de Massa Corporal (IMC) que é calculado dividindo-se o peso (em kg) pelo quadrado da altura (em metros). O resultado revela se o peso está dentro da faixa ideal, abaixo ou acima do desejado.</p>
+        </section>
+        <section id="principal">
+            <div class="tela">
+                <p id="entrada" >Entrada</p>
+                <form id="form">
+                    <input id="altura" type="text" placeholder="   Digite sua altura ex: 1.75 " required="Digite o valor correto"/>
+                    <input id="peso" type="text" placeholder="   Digite seu peso ex: 70" required="Digite o valor correto" />
+                    <button id="botao" type="submit">Verificar</button>
+                </form>
+            </div>
+        </section>
+        <section class="info">
+            <h2>Classificação do IMC:</h2>
+            <p> Menor que 18,5 - Abaixo do peso <br/>
+
+                Entre 18,5 e 24,9 - Peso normal <br/>
+                
+                Entre 25 e 29,9 - Sobrepeso (acima do peso desejado) <br/>
+                
+                Igual ou acima de 30 - Obesidade</p>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
